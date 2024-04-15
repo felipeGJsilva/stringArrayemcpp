@@ -1,17 +1,23 @@
+
 #include <iostream>
-#include <cstring>
+#include <string>
 
 int main(){
 
-    char str1;
-    printf("Digite a primeira palavra: ");
-    scanf("%s",str1);
-    char str2;
-    printf("Digite a segunda palavra: ");
-    scanf("%s",str2);
-    char resultado = str1 + str2; 
+    std::string str;
+    std::string str2;
+    std::cout << "Digite a primeira palvara: " << std::endl;
+    std::cin >> str;
 
+    std::cout << "Digite a segunda  palvara: " << std::endl;
+    std::cin >> str2;
+    
     
 
+   
+    
+    std::cout << "Concatenado: \n" << str + str2 << std::endl;
+
+  
     return 0;
 }
