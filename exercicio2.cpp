@@ -11,7 +11,7 @@ int main(){
     scanf("%s",str2);
     char resultado = str1 + str2; 
 
-    printf("Concatenado: %s\n", resultado.c_str());
+    
 
     return 0;
 }
